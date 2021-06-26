@@ -355,7 +355,8 @@ background-size: contain;
 
 /* LIST HOW IT WORKS */
 .how-it-works-stages{
-  padding-top: 200px;
+  margin-top: 251px;
+  padding-top: 100px;
   padding-bottom: 200px;
 margin-left: 100px;
 }
