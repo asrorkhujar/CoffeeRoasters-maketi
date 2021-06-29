@@ -56,6 +56,7 @@ body {
   margin: 0;
   font-family: "Barlow" "Arial", sans-serif;
   background-color: #FEFCF7;
+  overflow-x: hidden;
 }
 
 img {
@@ -127,8 +128,6 @@ img {
 
 
 /* hero */
-
-
 .hero-all{
   width: 580px;
   padding-top:117px;
@@ -185,8 +184,9 @@ img {
 }
 .hero{
   background-image: url(/img/hero-photo.jpg);
-  width: 1280px;
-  height: 600px;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center center;
 }
 
 
@@ -198,7 +198,7 @@ img {
   align-items: center;
   background-image: url("../img/collection-photo.png");
   background-repeat: no-repeat;
-  background-size: 1111px 196px;
+  /* background-size: 1111px 196px; */
   background-position: calc(50% + 0px) 140px;
 }
 .collection-list{
@@ -558,13 +558,13 @@ img {
   /* HERO */
 
   .hero {
-    height: auto;
     padding: 100px 25px;
     text-align: center;
-    background-image: url("../img/her-mobile-bg.jpg");
-    background-position: left;
-    background-size: 327px 500px;
+    background-image: url("../img/hero-mobile-bg.jpg");
+    background-position: center center;
+    background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 10px;
   }
 
   .hero-all{
@@ -826,13 +826,13 @@ img {
   /* HERO */
 
   .hero {
-    height: auto;
     padding: 100px 25px;
     text-align: center;
-    background-image: url("../img/her-mobile-bg.jpg");
-    background-position: left;
-    background-size: 327px 500px;
+    background-image: url("../img/hero-mobile-bg.jpg");
+    background-position: center center;
+    background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 10px;
   }
 
   .hero-all{
@@ -1031,3 +1031,5 @@ img {
   }
 
 }
+
+/* RETINA */
